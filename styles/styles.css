@@ -1,0 +1,29 @@
+ing {
+    width: 380px;
+}
+
+body {
+    background-color: lightblue;
+    text-align: center;
+}
+
+header, footer {
+    background-color: white;
+    padding: 20px;
+}
+nav a:hover {
+    text-decoration: underline;
+    color: purple
+}
+p{
+    font-size: 1.5em;
+}
+
+#second {
+    font-size: 3em;
+}
+
+.emphasis {
+    color: 
+}
+/* This is how you make comments in css. */
