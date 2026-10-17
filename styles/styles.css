@@ -1,4 +1,4 @@
-ing {
+img {
     width: 380px;
 }
 
@@ -23,7 +23,47 @@ p{
     font-size: 3em;
 }
 
+/*
 .emphasis {
     color: 
 }
+*/
+
 /* This is how you make comments in css. */
+
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #0077B6   ;
+  --secondary-color: #00B4D8 ;
+  --accent1-color: #90E0EF;
+  --accent2-color: #CAF0F8;
+}
+
+.colors {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.primary {
+    background-color: var(--primary-color);
+}
+
+.secondary {
+    background-color: var(--secondary-color)
+}
+
+.accent1 {
+    background-color: var(--accent1-color);
+}
+
+.accent2{
+    background-color: var(--accent2-color);
+}
+
+.colors td {
+    height: 50px;
+}
+
+body {
+    font-family: 
+}
