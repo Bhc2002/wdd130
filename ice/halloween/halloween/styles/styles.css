@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+    background-color: #ed974b;
+}
+
+nav ul {
+    display: flex;
+    text-align: left;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+main h1 {
+    font-size: 75px;
+}
+
+body:hover {
+    background-color: red;
+}
+
+
+
+footer {
+    text-align: right;
+}
+
+img:hover {
+
+    ::after: url("images/Screenshot 2026-10-21 131639.png")
+}
+
