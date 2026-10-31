@@ -8,12 +8,19 @@ body {
 }
 
 header, footer {
-    background-color: white;
     padding: 20px;
 }
+
+header {
+    background-image: url("../images/LoganMountain.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+}
+
 nav a:hover {
     text-decoration: underline;
-    color: purple
+    color: purple;
 }
 p{
     font-size: 1.5em;
@@ -49,7 +56,7 @@ p{
 }
 
 .secondary {
-    background-color: var(--secondary-color)
+    background-color: var(--secondary-color);
 }
 
 .accent1 {
@@ -65,5 +72,33 @@ p{
 }
 
 body {
-    font-family: 
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+
+
+.about-me {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+    align-items: center;
+    text-align: left;
+    font-size: 25px;
+}
+
+.about-me img {
+    width: 480px;
+}
+
+main img {
+    width: 700px;
+    margin-bottom: 30px;
+}
+
+ul {
+    text-align: left;
+}
+
+#fun-facts, ul {
+    text-align: left;
 }
